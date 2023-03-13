@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 
 //connect to the database
-mongoose.connect('mongodb://localhost/Image_API_db');
+mongoose.connect('mongodb+srv://assianmol:dashmeshassi@cluster0.385raui.mongodb.net/?retryWrites=true&w=majority');
 
 //acquire the connection(to check if it's successful)
 const db = mongoose.connection;

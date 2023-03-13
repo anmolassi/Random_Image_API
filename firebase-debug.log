@@ -1,0 +1,70 @@
+[debug] [2023-03-13T16:25:16.691Z] ----------------------------------------------------------------------
+[debug] [2023-03-13T16:25:16.692Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\assia\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2023-03-13T16:25:16.693Z] CLI Version:   11.24.1
+[debug] [2023-03-13T16:25:16.693Z] Platform:      win32
+[debug] [2023-03-13T16:25:16.693Z] Node Version:  v16.16.0
+[debug] [2023-03-13T16:25:16.694Z] Time:          Mon Mar 13 2023 21:55:16 GMT+0530 (India Standard Time)
+[debug] [2023-03-13T16:25:16.694Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-13T16:25:16.787Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-13T16:25:16.787Z] > authorizing via signed-in user (assi.anmol@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\assia\Desktop\Coding\Web_Development\Random_Movie_Image
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-03-13T16:25:26.252Z] Using project from CLI flag: random-movie-image
+[debug] [2023-03-13T16:25:26.254Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/random-movie-image [none]
+[debug] [2023-03-13T16:25:26.913Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/random-movie-image 200
+[debug] [2023-03-13T16:25:26.913Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/random-movie-image {"projectId":"random-movie-image","projectNumber":"155640689663","displayName":"Random-movie-image","name":"projects/random-movie-image","resources":{"hostingSite":"random-movie-image","storageBucket":"random-movie-image.appspot.com","locationId":"asia-south1"},"state":"ACTIVE","etag":"1_75145bf6-20d1-48d5-8160-7e098ff65e25"}
+[info] i  Using project random-movie-image (Random-movie-image) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote y/404.html 
+[debug] [2023-03-13T16:25:48.178Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-03-13T16:25:48.693Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-03-13T16:25:48.693Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.17.2","browserURL":"https://www.gstatic.com/firebasejs/9.17.2/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.17.2/firebase.tgz"},"live":{"version":"9.17","browserURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.17/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.17.2/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.17.2/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.17.2/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.17.2/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.17.2/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.17.2/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.17.2/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.17.2/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.17.2/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.17.2/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.17.2/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.17.2/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.17.2/firebase-firestore.memory.js"}}
+[info] +  Wrote y/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\assia\Desktop\Coding\Web_Development\Random_Movie_Image 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=308095385&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-03-13T16:25:58.660Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-03-13T16:25:58.661Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-03-13T16:25:59.629Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-03-13T16:25:59.629Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-03-13T16:25:59.633Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-03-13T16:26:00.456Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-03-13T16:26:00.456Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"anmolassi","id":79657095,"node_id":"MDQ6VXNlcjc5NjU3MDk1","avatar_url":"https://avatars.githubusercontent.com/u/79657095?v=4","gravatar_id":"","url":"https://api.github.com/users/anmolassi","html_url":"https://github.com/anmolassi","followers_url":"https://api.github.com/users/anmolassi/followers","following_url":"https://api.github.com/users/anmolassi/following{/other_user}","gists_url":"https://api.github.com/users/anmolassi/gists{/gist_id}","starred_url":"https://api.github.com/users/anmolassi/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/anmolassi/subscriptions","organizations_url":"https://api.github.com/users/anmolassi/orgs","repos_url":"https://api.github.com/users/anmolassi/repos","events_url":"https://api.github.com/users/anmolassi/events{/privacy}","received_events_url":"https://api.github.com/users/anmolassi/received_events","type":"User","site_admin":false,"name":"Anmol Assi","company":null,"blog":"","location":null,"email":"assi.anmol@gmail.com","hireable":null,"bio":null,"twitter_username":null,"public_repos":18,"public_gists":0,"followers":2,"following":3,"created_at":"2021-02-25T16:53:16Z","updated_at":"2023-02-25T06:09:07Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":7791,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as anmolassi 
+[info] 
+[debug] [2023-03-13T16:26:12.334Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2023-03-13T16:26:13.063Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2023-03-13T16:26:13.063Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
